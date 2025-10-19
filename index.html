@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thiệp 20/10 vv 💖</title>
+  <title>20/10 vv 💖</title>
   <style>
+    /* Thêm font có hỗ trợ tiếng Việt */
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap');
+
     body {
       margin: 0;
       height: 100vh;
@@ -14,7 +17,7 @@
       justify-content: center;
       align-items: center;
       background: linear-gradient(135deg, #ffb6c1, #ff69b4, #ff9ecf);
-      font-family: "Comic Sans MS", cursive;
+      font-family: "Be Vietnam Pro", "Comic Sans MS", cursive;
       color: white;
       text-align: center;
     }
@@ -104,10 +107,10 @@
 </head>
 <body>
   <h1 id="typingText"></h1>
-  <button id="showBtn" onclick="showCard()">Bấm vào đây nè 😆</button>
+  <button id="showBtn" onclick="showCard()">Bấm vào đây 😆</button>
   <img id="vyImg" src="Vy.jpg" alt="Ảnh Vy 😘" />
-  <div class="caption">Tặng Vy nè 💐</div>
-  <div class="message">Chúc Vy luôn xinh đẹp, vui vẻ, và gặp thật nhiều điều may mắn trong cuộc sống 💞</div>
+  <div class="caption">Tặng nè 💐</div>
+  <div class="message">Chúc Vy luôn xinh đẹp, vui vẻ, học giỏi và gặp thật nhiều điều may mắn trong cuộc sống 💞</div>
 
   <audio id="bgMusic" loop autoplay>
     <source src="https://cdn1.suno.vn/media/mp3/1-thang-con-trai-jack.mp3" type="audio/mpeg">
@@ -170,7 +173,7 @@
 
       setTimeout(() => {
         message.style.opacity = '1';
-      }, 800); // hiện lời chúc sau một chút
+      }, 800);
     }
 
     document.body.addEventListener('click', () => {
@@ -180,4 +183,3 @@
   </script>
 </body>
 </html>
-
